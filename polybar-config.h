@@ -11,6 +11,7 @@ static       int smartgaps          = 0;        /* 1 means no outer gap when the
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int extrabarright      = 0;        /* 1 means extra bar text on right */
+/* DEFAULT CONFIG CONTAINS EXTRA-BAR | IF YOU WISH TO REMOVE EXTRA BAR, A FOLDER IS ADDED CALLED 'NO-EXTRA-BAR', REPLACE THOSE FILES WITH OTHER FILES WITH SAME NAME */
 static const char statussep         = ';';      /* separator between status bars */
 static const int usealtbar          = 1;        /* 1 means use non-dwm status bar */
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
